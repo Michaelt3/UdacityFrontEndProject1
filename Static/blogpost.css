@@ -37,6 +37,11 @@
   border-radius: 50%;
 }
 
+img {
+  height: 150px;
+  width: 300px;
+}
+
 @media (max-width: 1000px) {
   .container {
     font-family: "Lato", sans-serif;
@@ -55,15 +60,20 @@
 
   .mike-avatar {
     vertical-align: middle;
-    width: 200px;
-    height: 175px;
+    width: 100px;
+    height: 75px;
     border-radius: 50%;
   }
 
   .franzi-avatar {
     vertical-align: middle;
-    width: 200px;
-    height: 175px;
+    width: 100px;
+    height: 75px;
     border-radius: 50%;
+  }
+
+  img {
+    height: 75px;
+    width: 150px;
   }
 }
