@@ -1,0 +1,105 @@
+/*Index Mobile*/
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: green;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  height: 75px;
+  width: 150px;
+  caption-side: bottom;
+}
+
+.welcome {
+  grid-area: wel;
+  text-align: center;
+  background-image: url("Images/welcomepic.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: center;
+}
+
+.card {
+  grid-area: cd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  text-align: center;
+}
+
+#card-image {
+  width: 100%;
+  height: 60%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.when {
+  grid-area: when;
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15%;
+}
+
+.where {
+  grid-area: where;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15%;
+}
+
+.theme {
+  grid-area: thm;
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15%;
+}
+
+.expect {
+  grid-area: ex;
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15%;
+}
+
+.expect > p {
+  color: red;
+}
+
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: rs;
+}

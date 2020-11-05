@@ -1,0 +1,34 @@
+/*Index*/
+
+@import "indexbody.css";
+@import "navbar.css";
+
+.container {
+  font-family: "Lato", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25px 425px 225px 225px;
+  grid-template-areas:
+    "hd hd hd hd hd hd"
+    "wel wel wel wel wel cd"
+    "when when when where where where"
+    "thm thm thm ex ex ex"
+    "rs rs rs rs rs rs";
+}
+
+@media (max-width: 1000px) {
+  .container {
+    font-family: "Lato", sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 300px 200px 200px 200px 200px;
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "wel wel wel wel wel cd"
+      "when when when when when when"
+      "where where where where where where"
+      "thm thm thm thm thm thm"
+      "ex ex ex ex ex ex"
+      "rs rs rs rs rs rs";
+  }
+}
